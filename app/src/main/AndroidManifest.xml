@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="itmvu.litmus17">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!--
+      IMPORTANT: Change "com.parse.starter.permission.C2D_MESSAGE" in the lines below
+      to match your app's package name + ".permission.C2D_MESSAGE".
+    -->
+    <application
+        android:name=".PushNotify"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_litmus"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainPage"
+            android:label="@string/title_activity_mainpage"
+            android:parentActivityName=".SplashScreen"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.SplashScreen" />
+        </activity>
+        <activity
+            android:name=".events"
+            android:label="@string/title_activity_events"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.MainPage" />
+        </activity>
+        <activity
+            android:name=".Chakravyuh_Cricket"
+            android:label="@string/title_activity_c2"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Chakravyuh_Basketball"
+            android:label="@string/title_activity_c5"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Chakravyuh_Football"
+            android:label="@string/title_activity_c4"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Chakravyuh_Vollyball"
+            android:label="@string/title_activity_c3"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Chakravyuh_Carrom"
+            android:label="@string/title_activity_c6"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Chakravyuh_Chess"
+            android:label="@string/title_activity_c8"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Chakravyuh_Girls_Gully_Cricket"
+            android:label="@string/title_activity_c1"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Fury_Of_Tracks"
+            android:label="@string/title_activity_t1"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Code_To_Win"
+            android:label="@string/title_activity_t2"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Fiery_Fighters"
+            android:label="@string/title_activity_t3"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Speeding_Machines"
+            android:label="@string/title_activity_t4"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_The_Artsy_Lens"
+            android:label="@string/title_activity_t5"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Construo"
+            android:label="@string/title_activity_t6"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Bridge_The_Gap"
+            android:label="@string/title_activity_t7"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Shift_To_Beat"
+            android:label="@string/title_activity_t8"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Hit_It_To_Win_It"
+            android:label="@string/title_activity_t9"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Reclamation"
+            android:label="@string/title_activity_t10"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Ladder_Claimbers"
+            android:label="@string/title_activity_t11"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Mini_Militia"
+            android:label="@string/title_activity_t12"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Bomb_Squad"
+            android:label="@string/title_activity_t13"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Robo_Soccer"
+            android:label="@string/title_activity_t14"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Fifa_16"
+            android:label="@string/title_activity_t15"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Robo_Puzzle"
+            android:label="@string/title_activity_t16"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Technovision_Rainbow_6_Siege"
+            android:label="@string/title_activity_t17"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_abtus"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.MainPage" />
+        </activity>
+        <activity
+            android:name=".contactus"
+            android:label="@string/title_activity_contactus"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.MainPage" />
+        </activity>
+        <activity
+            android:name=".Sponsors"
+            android:label="@string/title_activity_sp"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.MainPage" />
+        </activity>
+        <activity
+            android:name=".Magnif_Blind_Fold"
+            android:label="@string/title_activity_m1"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Snakes"
+            android:label="@string/title_activity_m2"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Tug_Of_War"
+            android:label="@string/title_activity_m3"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Takeshis_Castle"
+            android:label="@string/title_activity_m4"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Treasure_Hunt"
+            android:label="@string/title_activity_m5"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Wheel_of_Dare"
+            android:label="@string/title_activity_m6"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Pyramid_Of_ITM"
+            android:label="@string/title_activity_m7"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Lakhati_Maro_Bottle_Pado"
+            android:label="@string/title_activity_m8"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Clean_The_Board"
+            android:label="@string/title_activity_m9"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Lit_The_Candle"
+            android:label="@string/title_activity_m10"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Great_Boss"
+            android:label="@string/title_activity_m11"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Quiz_Tactic"
+            android:label="@string/title_activity_m12"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Creative_Extempore"
+            android:label="@string/title_activity_m13"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Film_Making"
+            android:label="@string/title_activity_m14"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Magnif_Wrist_Wrestling"
+            android:label="@string/title_activity_m15"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Kalakriti_Fashion_Fusion"
+            android:label="@string/title_activity_k1"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Kalakriti_Dancellenium"
+            android:label="@string/title_activity_k2"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Kalakriti_Curtain_Up"
+            android:label="@string/title_activity_k3"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Kalakriti_Sound_At_Sight_And_Unplugged"
+            android:label="@string/title_activity_k4"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+
+        <service android:name="com.parse.PushService" />
+
+        <receiver
+            android:name="com.parse.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <!-- IMPORTANT: Change "com.parse.starter" to match your app's package name. -->
+                <category android:name="itmvu.litmus16" />
+            </intent-filter>
+        </receiver>
+
+        <!--
+        <receiver android:name="itmvu.litmus16.pushrecive" android:exported="false"  >
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+                <action android:name="com.parse.push.intent.DELETE" />
+            </intent-filter>
+        </receiver>
+        -->
+        <meta-data
+            android:name="com.parse.push.notification_icon"
+            android:resource="@drawable/ic_notify" />
+
+        <activity
+            android:name=".Register_Technovision"
+            android:label="@string/title_activity_registerp"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.registermenu" />
+        </activity>
+        <activity
+            android:name=".Register_Magnif"
+            android:label="@string/title_activity_registerm"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.registermenu" />
+        </activity>
+        <activity
+            android:name=".Register_Scifun"
+            android:label="@string/title_activity_registers"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.registermenu" />
+        </activity>
+        <activity
+            android:name=".Register_Chakravyuh"
+            android:label="@string/title_activity_registerc"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.registermenu" />
+        </activity>
+        <activity
+            android:name=".registermenu"
+            android:label="@string/title_activity_registermenu"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.MainPage" />
+        </activity>
+        <activity
+            android:name=".Scifun_Poster_Presentation"
+            android:label="@string/title_activity_s1"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Scifun_Model_Making"
+            android:label="@string/title_activity_s2"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Scifun_Painter_Paradise"
+            android:label="@string/title_activity_s3"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Scifun_Clay_Modelling"
+            android:label="@string/title_activity_s4"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Scifun_Card_Creation"
+            android:label="@string/title_activity_s5"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Scifun_Object_Decor"
+            android:label="@string/title_activity_s6"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Scifun_Quizard"
+            android:label="@string/title_activity_s7"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Scifun_One_Minute_Games"
+            android:label="@string/title_activity_s8"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".Scifun_Best_Out_Of_Waste"
+            android:label="@string/title_activity_s9"
+            android:parentActivityName=".events"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.events" />
+        </activity>
+        <activity
+            android:name=".teamapp"
+            android:label="@string/title_activity_teamapp"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="itmvu.litmus17.teamapp">
+            </meta-data>
+        </activity>
+    </application>
+
+</manifest>

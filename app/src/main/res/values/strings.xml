@@ -1,0 +1,335 @@
+<resources>
+    <string name="app_name">Litmus\'17</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_first">Call For volunteers</string>
+    <string name="title_activity_comingsoon">Comingsoon</string>
+    <string name="title_activity_mainpage">Litmus17</string>
+    <string name="action_share">Share</string>
+    <string name="link">https://play.google.com/store/apps/details?id=itmvu.litmus17</string>
+    <string name="frwd">Share this app through</string>
+    <string name="title_activity_events">Events Details</string>
+    <string name="title_activity_register">Register Your Self</string>
+
+    <string name="title_activity_abtus">About Litmus\'17</string>
+    <string name="abtus1">Due to inundating creativity and thirst for innovation of our students and with the constant guidance of our unparalleled faculty, LITMUS is all set for this year’s edition. Keeping in mind our core values of working as a team with integrity and professionalism, LITMUS has grown a lot from last year to become one of the most popular and awaited techno&#8211;management events in the city. Reaching out to students, industry and the society in general, LITMUS 2017 promises to be bigger than the last edition!\n\nEnroll and feel the zest..!\n\n</string>
+    <string name="abtc">Sports don’t build character they reveal it \n\nLitmus presents you a 2&#8211;day nail&#8211;biting, sports action with full of excitement sportsmanship and fierce competition to emerge the best among all.\n\nWe bring cricket, football, volleyball, basketball, chess, Carrom, athletic events, table&#8211;tennis and gully&#8211;cricket.\n\nEnroll yourselves and enter this Chakravyuh and emerge victorious.\n\n</string>
+    <string name="abtt">Technology is best when it brings people together \n\nA Carnival for the tech&#8211;enthusiasts who believe in making something efficient and worth, who believe in expanding the knowledge, who believe in experiencing the real&#8211;outcomes, who have the guts to face the competition, who believe learning outside the class as well.\n\nThis is the place for them…\n\nA two day tech bonanza for the people who have vision to compete and win something great in their field.\n\nLitmus welcomes everyone with warm heart…\n\nEnjoy.Explore.Learn\n\n</string>
+    <string name="abtk">Remember this moment.Cherish the story.Celebrate this life\n\nThe annual day of the Litmus 2017, comprising of culture, innovators, experience, art, fun and madness.\n\nThe very own party celebration for the college students, to come along and celebrate the joy of life and spread happiness, because they say a good life is a collection of happy moments.\n\nWe believe in creating memories that lasts long, we end this day to come back better and bigger and with double the eagerness and fun.\n\n</string>
+    <string name="title_activity_contactus">Contact Us</string>
+    <string name="g1">Dr. Gautam Patel \n+91 9574007671 \ngautamp\@itmuniversity.org \n\nMr. Ravindra Prajapati \n+91 9574005017 \nravindrap\@itmuniversity.org \n\nMr. Gulshan Kumar \n+91 9737911184 \ngulshank\@itm.edu \n\nMr. Manoj bhambhu \n+91 7046453657 \nmanojb\@itmuniversity.org \n\nMr. Vinesh Parikh\n+91 99044 09053\n\nMs. Amruta Prajapati\n+91 97264 88666\n\nMs. Swati Saxena\n+91 925177310\n\nMs. Sweta Patel\n+91 95740 05001\n\nMs. Amita Prabhin\n+91 94299 50486\n\nMs. Bhumika Patel\n+91 99098 81421\n\nMs. Jahanvee Chanpura\n+91 96012 99676\n\nMr. Kanaiya Bhatt\n+91 97236 36711\n\nMr. Edward Barnard\n+91 90161 71677\n\n</string>
+    <string name="title_activity_sp">Sponsorship</string>
+
+    <string name="spsh">Litmus\’17 is student driven fest. The fest open opportunities and avenues for the students to explore their talent and skills and showcase it hence forth enhancing their personality.\n\nIndustries Companies brands owners are cordially invited for their generous support to young birds of ITM VOCATIONAL UNIVERSITY in the form of sponsorship.\n\n</string>
+    <string name="spsh1">Below are the Benefits of sponsoring ITM VOCATIONAL UNIVERSITY fest Litmus 2017 </string>
+    <string name="spsh2">• Expected attendees &#8211; 1000/day 2000+(on 19/02/2017 include students ) \n\n•	 Targets age group 18&#8211;40 years\n\n• 5 days events  2 days for sports fest 2 days for technical event  1 day cultural fest and Dj night\n\n• Prioritize to give full exposure to the event on Social media platform.\n\n• A nice and spacious venue&#8211; University campus for events and University mini stadium for cultural fest and DJ night.\n\n• Giveaways and swags for attendees. Certificates to the attendees.\n\n•	Dedicated sponsors’ booth/kiosk.\n\n</string>
+
+    <string name="title_activity_teamapp">Team App</string>
+    <string name="title_activity_c1">Girls Gully Cricket</string>
+    <string name="title_activity_c2">Cricket</string>
+    <string name="title_activity_c3">Volley Ball</string>
+    <string name="title_activity_c4">FootBall</string>
+    <string name="title_activity_c5">Basket Ball</string>
+    <string name="title_activity_c6">Carrom</string>
+    <string name="title_activity_c8">Chess</string>
+
+    <string name="title_activity_t1">Fury of Tracks</string>
+    <string name="title_activity_t2">Code To Win</string>
+    <string name="title_activity_t3">FIERY FIGHTERS</string>
+    <string name="title_activity_t4">SPEEDING MACHINES</string>
+    <string name="title_activity_t5">The Artsy Lens</string>
+    <string name="title_activity_t6">Construo</string>
+    <string name="title_activity_t7">Bridge The Gap</string>
+    <string name="title_activity_t8">Shift To Beat</string>
+    <string name="title_activity_t9">Hit it to Win it</string>
+    <string name="title_activity_t10">Reclamation</string>
+    <string name="title_activity_t11">Ladder Claimbers</string>
+    <string name="title_activity_t12">Mini Militia</string>
+    <string name="title_activity_t13">"Bomb Squad"</string>
+    <string name="title_activity_t14">Robo Soccer</string>
+    <string name="title_activity_t15">Fifa 16</string>
+    <string name="title_activity_t16">Robo Puzzle</string>
+    <string name="title_activity_t17">Rainbow 6 Siege</string>
+
+    <string name="title_activity_m1">Blind Fold</string>
+    <string name="title_activity_m2">Snakes</string>
+    <string name="title_activity_m3">Tug Of War</string>
+    <string name="title_activity_m4">"Takeshi's Castle"</string>
+    <string name="title_activity_m5">Treasure Hunt</string>
+    <string name="title_activity_m6">Wheel Of Dare</string>
+    <string name="title_activity_m7">Pyramid Of ITM</string>
+    <string name="title_activity_m8">Lakhati Maro Bottle Pado</string>
+    <string name="title_activity_m9">Clean The Board</string>
+    <string name="title_activity_m10">Lit The Candle</string>
+    <string name="title_activity_m11">Great Boss</string>
+    <string name="title_activity_m12">Quiz Tactic</string>
+    <string name="title_activity_m13">Creative Extempore</string>
+    <string name="title_activity_m14">Film Making</string>
+    <string name="title_activity_m15">Wrist Wrestling</string>
+
+    <string name="title_activity_s1">Poster Presentation</string>
+    <string name="title_activity_s2">Model Making</string>
+    <string name="title_activity_s3">Painter Paradise</string>
+    <string name="title_activity_s4">Clay Modeling</string>
+    <string name="title_activity_s5">Card Creation</string>
+    <string name="title_activity_s6">Object Decor</string>
+    <string name="title_activity_s7">Quizard</string>
+    <string name="title_activity_s8">One Minute Games</string>
+    <string name="title_activity_s9">Best Out Of Waste</string>
+
+    <string name="title_activity_k1">FASHION FUSION</string>
+    <string name="title_activity_k2">DANCELLENIUM</string>
+    <string name="title_activity_k3">CURTAIN UP</string>
+    <string name="title_activity_k4">SOUND AT SIGHT AND UNPLUGGED</string>
+
+    <string name="c1des">Cricket and life are alike, every ball equals every minute, every shot, equals an opportunity, and every wicket is an obstacle.\n\nDo you have a team to be victorious with a sport that goes with the thrill in its core?\n\nRegister in the game of gentlemen, enjoy the madness and let your talent be in front.\n\n</string>
+    <string name="c2des">Dribble, shoot, rebound and score…\n\n\“I have failed over and over again in my life, and that is why I succeed\”- Michael Jordan\n\nHere’s the sport of chances and perfection, you better be focused so you don\’t miss, let the people cheer on your dunks, let your score win your team.\n\nSo boys in shorts, make every chance a shot.</string>
+    <string name="c3des">In a football game there is one TEAM and one DREAM and that is to win the day! So let\’s fight on!\n\nBehind every kick of the ball, there is always a thought. Suit up for the combat of 5-a side football match, and let the goal post be shattered with your power or let your moves get crushed with the defence.\n\nSo boys, gear up, pace your skills and let the whistle blow loud…!\n\n</string>
+    <string name="c4des" formatted="false">Be ready to face the sun, and don’t let that be the excuse of your failure, because they say volleyball is 90% heart, 10% skill, and 10% passion, you always give 110% on the field no matter what.\n\nLet your serve pierce the opponent\’s confidence, jump and smash it.\n\n</string>
+    <string name="c5des">So the strike and pocket game is here for the board game lovers.\n\nCarrom is much deeper, much more strategic, much more skill rewarding and generally a much better game.\n\nA game which brings fun and togetherness, the ups and downs in each move, and the fun-fight for the queen, here\'s all for your striking abilities, participate and let\’s see who gets the queen.\n\nSee you at the other corner soon\n\n</string>
+    <string name="c6des">All that matters on chess-board is never to give up!\n\nLife is like a game of chess, to win you have to move. Knowing which move to make comes with in-sight and knowledge.\n\nChess is everything: art, science and sport. Your smartness and wits will be on a joy-ride, do you have that cleverness to dodge the defeat or we say \“CHECK-MATE\”.\n\nGet yourself in the event and let’s see who stays in and wins the battle of mind and reflexes.\n\n</string>
+    <string name="c7des">India doesn\’t need a world cup to stimulate them to play cricket. We have been playing cricket since we remember our friends and siblings.\n\nSo pretty girls out there, here’s the turf for your excitement and joy, cricket with a version of madness, screams and laughter.\n\nHits and misses, six and catches there’s a lot on the plate, so be ready, and let the ball soar high, hit hard.\n\n</string>
+
+    <string name="t1des">Fielding Bot Specifications: \n\n1· The bot must fit into a cube of 300 mm x300 mm x300 mm (l x b x h).\n\n2· The battery used cannot exceed 12 V.\n\n3· Either wired or wireless robot ( wireless preferred as the terrain would be tough )\n\n4· Max weight 8kgs.\n\n
+                         Rounds :\n\nQUALIFIER\n\n
+                         1. The participating robots are allowed to pass through a rough terrain (stone,gravel, mud, sand and water) track.\n\n
+                         2. Points will be distributed throughout the track in the form of checkpoints.\n\n
+                         3. The robot which gains maximum points is taken into consideration for next round within the stipulated time (disclosed on the spot).\n\n
+                         4. It’s not compulsory that you finish the track.\n\n
+                         5. Placing of the points will be disclosed on- site.\n\n
+                         FINAL :\n\n
+                         1. This round will be a challenging track whose track will be shown before Technival.\n\n
+                         2. The track comprises of different terrains which test the abilityof the performing robot to pass the different Terrains and get through theFinish Line.</string>
+    <string name="t2des">It\’s time to step out of your comfort zone. This event is going to be a test of your coding skill, under pressure.\n\nRun your brain and your fingers simultaneously.\n\n \“Most good programmers do programming not because they expect to get paid or get adulation by the public, but because it is fun to program.\”\n\n– Linus Torvalds (Finnish American, software engineer and hacker, principal force behind the development of the Linux kernel)</string>
+    <string name="t3des">\“Let the metal do the talking\”\n\nPassionate about Bots? Or you just like to watch things get crushed from fierce competition? The path to glory passes through the alley of destruction, lethal combats, violent bots, and flying blades! Merge your technical know-how with the ferocious gladiator in you! Make your bot fight for the ultimate glory or land up in the junk yard!\n\nFight smart, be patient\n\nLet your Robo\’s prove themselves to be the most powerful and reliable warriors!\n\nLet them make the havoc in their enemy\’s town. See you in the arena</string>
+    <string name="t4des">Strength isn\’t everything, are you fast enough?\n\nWhen you think you know it all, it\’s sure a sign you don’t. There is no place for arrogance and complacency in racing because you are up there one minute and on your backside the next. So all you ingenious engineers-to-be out there have an opportunity to Muster here and not only witness, but also be a part of the exhibit of sheer efficacy of brilliance. \n\n Fasten your wheels and just smash the finish line before any other of your clone.\n\n</string>
+    <string name="t5des">Coordinator will distribute all the photographers as per the events.\n
+                         One photographer will have 2 to 3 events to handle.\n
+                         Do not think that you will be at only one place whole Day.\n
+                         You have to show your Skills and creativity while photographing an Events assigned to you.\n
+                         You have to submit your photographs on 10th March at 3:00 p.m.\n
+                         There will be Showcase of your work through a projector while Cultural event will be going on.\n\n\n
+
+                         After litmus, there will be selection of the best images.\n
+                         All the participants will get certificates from university.\n
+                         Top 2 Photographers will get prizes.\n
+
+                         Before Litmus, there will be 2 hours workshop to brief you about event and teach you the Manual modes.\n\n\n
+                         Its a great chance for you to Learn photography and Manual modes.\n
+               </string>
+    <string name="t6des">Attractive Description: - \n\nCraftsmanship with technicalities and  your intellectuality .\n\n
+                         Full description: - \n\nIt is an event which pulls your strings and focus you poses to construct an innovative structure with the help of straws, sellotape etc., being within the limits, rules and regulation which has been decided by the committee members. </string>
+    <string name="t7des">Across gulfs and rivers, between people and countries, bridges break down separation and foster connectedness.\n\n The world has gone at its heights to reach the sky. Your problem here is to bridge the gap which exists between where you are now and the goal you intend to reach. So do it with closed minds though careful dissection of ideas and solid presentation of fact. Here is your chance to build structures with your own techniques and skills and make the marvels of engineering!! \n\n </string>
+    <string name="t8des">One of the most exciting events of LITMUS 2017 is this LAN Gaming event. Come and test your gaming skills over the LAN by going head to head against your opponents and show off your gaming skills. Participate in this event by playing the games NFS Most Wanted, and Counter Strike and take away the cash award.\n\nNFS Most Wanted:\n\nGot Speed? \n\n Try out your driving skills against your opponents in the asphalt burning NFS Most Wanted. Drive your way through to finish first and win the cash pot! Steer your throttle to win! </string>
+    <string name="t9des">\“STICK TOGETHER TEAM\”\n\nThe Ultimate Team game! The champ of military strategy, here\’s your chance..\n\n Join us with your Counter Strike Clan and go against the opponent clans to be the King of the Counter Strike Ring!!!!\n\n</string>
+    <string name="t10des">Creativity is your imagination and your talent coming out of your brain. So it\’s time to bring your imagination to reality, show case your talent and bring forth your ideas to the world.\n\nThe trash can make you the winner, ready to be partners with it?\n\nParticipate to explore your mindboggling skills.\n\n</string>
+    <string name="t11des">This is an event for imparting the sense of locomotion for the future robots. In this event the autonomous bots would need to climb a staircase with a given step sizes. There will be two rounds and in each rounds participants would be given different tasks. In the first round the robot needs to climb the track upwards and in the second time they need to climb it down.
+                          \n\n Step height\ rise: 15cm\n\nStep width: 38cm</string>
+    <string name="t12des">Update Soon</string>
+    <string name="t13des">Update Soon</string>
+    <string name="t14des">1. The soccer field will be 200cm long and 120cm wide.\n\n
+                          2. Tennis ball will be used.\n\n
+                          3. Goal posts will be 40cm wide.\n\n</string>
+    <string name="t15des">Update Soon</string>
+    <string name="t16des">TASK :\n\n
+                           1. BUILD A ROBOT WHICH WOULD ASSIST YOU IN DECIPHERING THE CODE OF THE LOCK AND WILL TRANSPORT YOU TO THE PLACE WHERE THE TREASURE IS HIDDEN BEFORE YOUR ENEMIES APPROACH.\n\n
+                           2.ITS NOT
+JUST ABOUT YOU OR THE ROBOT HOW WELL
+COORDINATED YOUR BRAIN IS WITH THE MECHANICS
+AND DYNAMICS OF THE ROBOT IS WHAT MATTERS.\n\n
+                           3. THE
+KEY TO COMPLETE THIS CHALLENGING TASK REQUIRES
+PERSISTENCE , EVERLASTING EFFORTS AND
+FORESEEING VISION.\n\n 4. FORESEEING VISION</string>
+    <string name="t17des">Update Soon</string>
+
+    <string name="m1des">Update Soon</string>
+    <string name="m2des">Update Soon</string>
+    <string name="m3des">Update Soon</string>
+    <string name="m4des">Update Soon</string>
+    <string name="m5des">Update Soon</string>
+    <string name="m6des">Update Soon</string>
+    <string name="m7des">Update Soon</string>
+    <string name="m8des">Update Soon</string>
+    <string name="m9des">Update Soon</string>
+    <string name="m10des">Update Soon</string>
+    <string name="m11des">Virtual “Bigbossitm” is a fun game which gives you an example of the game show "BigBossitm"\n\n Neither special learning nor extra preparation is needed for this event.\n\nIt is a game in which you learn many things of practical life with fun.\n\nJust enjoy every round and be yourself. \n\nSELECTION PROCESS\n\nGroup discussion\n\nPersonal interview \n\nTASK\n\n• Captainship task\n\nLuxury budget task \n\nSecret task\n\nNomination task</string>
+    <string name="m12des">Update Soon</string>
+    <string name="m13des">Update Soon</string>
+    <string name="m14des">Update Soon</string>
+    <string name="m15des">Update Soon</string>
+
+    <string name="s1des">Update Soon</string>
+    <string name="s2des">Update Soon</string>
+    <string name="s3des">Update Soon</string>
+    <string name="s4des">Update Soon</string>
+    <string name="s5des">Update Soon</string>
+    <string name="s6des">Update Soon</string>
+    <string name="s7des">Update Soon</string>
+    <string name="s8des">Update Soon</string>
+    <string name="s9des">Update Soon</string>
+
+    <string name="k1des">Dance is the hidden language of the soul.\n\nDancing with feet is one thing, and dancing with heart is another, it\’s a conversation between the body and the soul.\n\nLitmus is a refreshing stage for the dance lovers here the students just get along with it, it\’s a poem of which every movement is a word.\n\nSo put on your dancing shoes and just kick the stage hard, let the spectators be on their feet and the applause carry you around!\n\nJust dance like no one\’s watching, and remember Dance to express!</string>
+    <string name="k2des">\“Acting is not a state of being, but a state of appearing to be!\”\n\nThey say play is not in the words or lines, it\’s in the soul and the heart. Litmus gives platform to our gripped and smart actors, to perform and exhibit their true interim.\n\nActs which are just robust and thoughtful, with a message and meaning spread at the end to the audience.\n\nDramas are the mirror, a sharp reflection of society.\n\nAs we say the world is the stage, so let\’s lay on some sweats!</string>
+    <string name="k3des">\“Music gives soul to the universe, wings to the mind, flight to the imagination and life to everything\”.\n\nWhen words fail music speaks. Sound at sight and unplugged are such platforms for the soothing voices of the university. An event to give the calmness to the mind and soul to the audience, an experience one would love to have.\n\nThese events will leave you mesmerized with its budding performers. So enjoy these performances and lose yourself in music!</string>
+    <string name="k4des">\“Fashion is not something that exists in dresses only. Fashion is in the sky, in the street, fashion has to do with ideas, the way we live, what is happening.\”\n\nFashion is an extension of personality. It gives a certain amount of freedom to people and allows them to be who they want to be. It is a chance to be like everybody and the one at the same time.\n\nLitmus presents FASHION FUSION for all the fashion lovers to walk the runway with their head held up high. So take a deep breath, focus on a point in distance, and go!</string>
+
+
+    <string name="c1rules">a)Registration will be done only on Official Webpage.\n\nb)Minimum Number of Players per Team: 11.\n\nc)Each innings will be of 8 over\’s.\n\nd)Final match will be of 10 over’s.\n\ne)Matches should be played from 15th to 17st February2015.\n\nf)Teams should be divided in 2 groups for knock out matches.\n\ng)Final match would be played on 17thFebruary.\n\nh)Rest all the rules will be disclosed to you on the day of match.\n\n</string>
+    <string name="c2rules">a)Participant should carry Identity-card.\n\nb) Number of Players per Team: 6\n\nc)6 minutes per quarter at knock out stages and final will be of 8 minutes.\n\nd)4 Quarter will be played at knock out basis.\n\ne)Rules will be according Basketball Federation of India, New Delhi.\n\nf)Rest all the rules will be disclosed to you on the day of match.\n\n</string>
+    <string name="c3rules">a)Team should consists of only 5 players. (One Goalkeeper and 4 players)\n\nb)Half time at 15 Minutes.\n\nc)Participant should bring their own kit.\n\nd)Referee\'s decision will be final and binding.\n\n</string>
+    <string name="c4rules">a)Participant should carry Identity-card.\n\nb)Minimum number of Players per Team: 6.\n\nc)11 points of 3 set will be played at knock out basis.\n\nd)Rest all the rules will be disclosed to you on the day of match.\n\n</string>
+    <string name="c5rules">a)ID card is mandatory for each player.\n\nb)Match will be played at knock out basis.\n\nc)Rest all the rules will be known to you on the day of match.\n\n</string>
+    <string name="c6rules">a)ID card is mandatory for each player.\n\nb)Match will be played at knock out basis.\n\nc)All FIDE rules are applicable.\n\nd)For classical chess, match time will be of 1.5 hours for each.\n\n</string>
+    <string name="c7rules">a)Registration procedure will be same as that applied for boys. \n\nb)Teams would be formed consisting of 6 players each.\n\nc)Rest all the rules will be known to you on the day of match\n\n</string>
+
+    <string name="t1rules">1. A team may consist of a maximum of 4 members.\n\n 2. Students from different educational institutes can form a team.\n\n 3. There is no restriction to the number of teams participating from same educational institute.\n\n 4. All students with a valid identity card of their respective educational institutes are eligible to participate.\n\n 5. During the Rounds, only maximum of two team members are allowed in the arena, one member will control the robot and other to guide it.\n\n
+                           6. However, teams are allowed to switch members in different rounds.\n\n
+                           7. Teams have to be ready with their bots.\n\n
+                           8. No time will be given once the robot is on theArena.\n\n
+                           9. If the bot is proved to be inactive for more than 60 seconds, it is disqualified.\n\n
+                           10. Batteries can be changed between rounds but not during a race.\n\n
+                           11. Time penalty shall be added for picking up the bot during the race.\n\n
+                           12. The penalty shall benotified at the beginning of the race.\n\n
+                           13. Damage to the track due to negligence by the participant will lead to instant disqualification.\n\n</string>
+    <string name="t2rules">A.Each team should have two members.\n\nB. There will be 2 rounds, one easy and another one little typical.\n\nC. There should not be any use of unfair means, if this happens then the team will be disqualified.\n\nD. Winners will be decided on the basis of time taken in making up with the assigned tasks.</string>
+    <string name="t3rules">A.Team Size: Max. 4 persons \n\nB.Two ROBOTs compete in a head-to-head match following the basics of wrestling.\n\nC.ROBOTs should be wireless or wired remote controlled. \n\nD.Like wrestling, the ROBOTs are given three full minutes for a round, in which either one of the ROBOTs is knocked out or the match time runs out, and judges decide the winner.\n\nE.The ROBOT should fit in a box of dimensions 400mm*400mm*400mm excluding the external control device dimensions.\n\nF.The weight limit of the ROBOT is 20 kg maximum including battery  Grabbing and throwing mechanism is allowed.\n\nG.The robot will be disqualified if any parts fail &amp;fall off in the arena and is unable to move for 10 seconds.\n\nH.The team destroying the opponents wiring circuitry intentionally or even by mistake  during the time of war will be disqualified.\n\nI.The decision of the Core Committee will be considered final and indisputable.\n\nJ.The Core Committee has the right to change any of the rules at any time.\n\nK.If the machine remains immobile for respectable time then on the spot decision will be taken by the Core Committee.</string>
+    <string name="t4rules">A. Team Size: Max. 4 persons.\n\nB. The track consists of different hurdle, which makes it difficult for a normal ROBOT to successfully cross them. \n\nC. Thus it requires a composite capability of having optimum speed and the torque to be a winner in a specifically given time duration. \n\nD. The ROBOT also requires the proper steering mechanism which will be able to pass through the curves.\n\nE. The ROBOT dimensions should not exceed 200*200*200 mm excluding the control device dimensions.\n\nF. The weight limit of the ROBOT is 6 kg maximum including battery and 4 kg excluding.\n\nG. The ROBOT may use wireless remote. Readymade wireless remote control units may be used.\n\nH. Maximum voltage between any two points on the ROBOT must not exceed 20 V dc. any dimension according to the ROBOT.</string>
+    <string name="t5rules">1. Any type of Camera can be used for Photography.\n\n
+                           2. Mobile phones are also allowed.\n\n
+                           3. Register your Cameras before event starts.\n\n
+                           4. Shoot photographs in RAW format.\n\n
+                           5. Personal photographs will not be considered in Selection.\n\n
+                           Editing: Participants can do only Basic Adjustments with the Photographs they want to submit.\n\n\n
+                           6. All the photographs Clicked by Participants should be saved in Pendrive With your Name and Event name,.\n\n
+                           7. Submit Photos only in .jpeg format.\n\n</string>
+    <string name="t6rules">1.
+The height of the tower/ sky-scrapers or the structure  has to have the minimum 70cm, more than that is optional.  Width has to be of 20 cm, more than that is optional.
+\n\n2.
+The structure has to be prepared from materials given by the college. (The materials are  straws , sellotapes, threads, cardboard, colour papers  )
+\n\n3.
+Need aesthetic view. (the tower/sky-scrape or structure should look pleasant too.)
+\n\n4.
+ Structure should be isolated. (it shouldn’t be fixed to the ground)
+\n\n5.
+The frame of the structure should be able to carry load of (3-5kg)minimum.
+\n\n6.
+Blowers will be used to compute the wind load, so your structure should resist the wind load.
+\n\n7.
+The demo of the structure will be shown to you before the event.
+\n\n8.
+Everything will be provided by the college. You have to be in the event empty-handed.
+\n\n9.
+Winner will be the one whose structure would be carrying the max load. </string>
+    <string name="t7rules">A.Each team should be of maximum 4 members.\n\nB. Materials to be used: Popsicle sticks, Fevicol , Hard board, thread.\n\nC. Use of any other adhesive, etc. is prohibited and participants using it will be disqualified from the event.\n\nD. All the models must be taken for the self-weighing during the specified period of time (any entry after that won’t be accepted and would be disqualified).\n\nE. No changes in the model after the self-weighing would be allowed and any team doing so without the permission of the core committee member would be disqualified.\n\nF. The decision of the judges and core committee will be final regarding any discrepancy on the spot or before the event.</string>
+    <string name="t8rules">A.single player registration.\n\nB.Players will be shortlisted in the next round.\n\nC.There are three round.\n\nD.Players will only compete if they have qualified same number of rounds.\n\nE.Participant members are  allowed to bring their own Headphones, Keyboards.\n\nF.Joy sticks not allowed.\n\nG.The decision of the judges and core committee will be final.</string>
+    <string name="t9rules">A.A team should consist max of 5 members and minimum 4.\n\nB. Every clan should have their team name.\n\nC. All matches are played using the max round 5 scoring system by default.\n\nD. Every match will be competition with another clan.\n\nE. A clan will disqualify if found using cheats.\n\nF. All matches needed to be played using Counter Strike v1.6.\n\nG. Both clans get to choose if they start as T or CT.\n\nH. Every winning game will earn you a reward point.\n\nI. Winners will be decided on final score.\n\nJ. The decision of the judges and core committee will be final.</string>
+    <string name="t10rules">A.Team Size: Max. 4 persons.\n\nB. The participant of any team cannot enter the area of the other teams. \n\nC. If there is any damage to the tools provided or instruments, then the team to which the instrument was given would be liable to pay for the damage. \n\nD. Workshop facilities will be provided to the participants. \n\nE. Participants need to have a basic  idea about workshop safety and operational precautions.\n\nF. The safety of the participant solely depends on the participant himself.\n\nG. There will be no restriction on the type of mechanism used by the team to perform the task provided no other rule is violated.\n\nH. The team violating the above rules will be disqualified.\n\nI. Judge\'s decision shall be treated as final and binding on all. </string>
+    <string name="t11rules">Update Soon</string>
+    <string name="t12rules">Update Soon</string>
+    <string name="t13rules">Update Soon</string>
+    <string name="t14rules">1• Each team is allowed to have a one bot.\n\n
+
+2• The bot must fit into a cube of (30x25x25) cm at staring . It can expand at any time during the
+
+match beyond this size even for hitting the ball.\n\n
+
+3• The bots can have on board as well as off board power supply.\n\n
+
+4• The maximum potential difference between any two points on the bot should not exceed 24 volts.\n\n
+
+5• Grabbing the ball is allowed maximum for 5 sec . So bots should not have any kind of grabbing
+
+mechanisms.\n\n
+
+6• Grabbing the ball is only allowed for goalkeeper within his own defence area\n\n
+
+7• A robot must not have in its construction anything that is dangerous to arena another robot or
+
+humans.\n\n
+
+8• For wired bot the minimum length of wire is 5 m and wire should not touch the arena\n\n</string>
+    <string name="t15rules">Update Soon</string>
+    <string name="t16rules">1. THE ROBO SHOULD BE WIRELESS OR WIRED WITH CONTROL.\n\n
+                           2. THE ROBO SHOULD NOT LEAVE ANY PART OF ROBOT WHILE SOLVING ARENA.\n\n
+                           3. THE ROBO SHALL NOT JUMP OVER, DAMAGE OR DESTROY ARENA.\n\n
+                           4. SIZE OF ROBO : 25 X 25 X 25 CM SIZE SHOULD NOT EXCEEDED FROM GIVEN SIZE.\n\n
+                           5. ANY PARTS OF TOY CAR IS NOT ALLOWED IN ROBO. OTHERWISE THEY SHOULD BE DISQUALIFIED.</string>
+    <string name="t17rules">Update Soon</string>
+
+    <string name="m1rules">Verbal communication only.\n\nEntry fee is 15 Rs per person.\n\nIf 3 glasses are crushed than the team is out.\n\nMaximum 4 members allowed in one team.\n\nOne person will put on the ribbon on his eyes.\n\nRemaining 3 members will communicate with the person having ribbon on his eyes.\n\nLegs should not touch the glass.\n\nOnly 3 times touching the glass is allowed after that the team will be disqualified.\n\nFor winning you must reach the finish line.</string>
+    <string name="m2rules">Non-verbal communication.\n\nEntry Fee per person is 10 Rs.\n\nIf you utter a single word your team is out.\n\nTeam will be of maximum six members.\n\nTap on the shoulders to show the direction.\n\nLeft tap to turn left and right tap to turn right and pull the collar to stop and press on head to bend down and put the stuff toys.\n\nIf line gets break down team will be disqualified.\n\nAll the person will have ribbon on the eyes.\n\nOnly the last member in the queue will have his eyes open and will show the direction.\n\n</string>
+    <string name="m3rules">Entry Fee 20 Rs Per Person.\n\nMinimum 5 and Maximum 20 person in one team.\n\nThe one who takes out the flag first will be the winner.\n\nNo excuse with the coordinator.\n\nNo conflict with coordinator or group members.</string>
+    <string name="m4rules">you compulsory have to blast 10 balloons.\n\nEntry fee per person is 25 Rs.\n\nOnly 2 persons allowed as a team.\n\nIf you fall out of the jute bag you have to start the same round again.\n\nWhile walking on leg any partner falls down the same level will restart again.\n\nNo Conflict between the team members and also with the organizers.\n\nThe one who will pick up the flag first will be the winner.\n\n</string>
+    <string name="m5rules">Per team Rs.100\n\n Per team 4 members\n\nRound 1 – Qualifying round\n\nThe person got gun in the paper will be qualified for second round.\n\nIf participant will be not there at the time of game will be disqualified directly.\n\nRound 2 – Quiz Test\n\nTeam with more marks will be selected.\n\nRound 3 – Dodge ball\n\nYou should be in contact with your team members throughout the game or you will be disqualified.\n\nAny of the team member hit by the ball then the whole team will be disqualified.\n\nRound 4 – Case study\n\nTeam members have to study the case within the premises of campus.\n\nTeam members will not take help of others.\n\nTeam members will not take help of others.\n\nThe time limit for the game is 1hr after the case is given to you.\n\n15 mins are given to think about the case and 1hr for implementation.\n\n</string>
+    <string name="m6rules">You have to fulfil the dares.</string>
+    <string name="m7rules">Build a pyramid of cards in 4:30 minutes.</string>
+    <string name="m8rules">Knock down all the 5 bottles with the help of 3 shots.</string>
+    <string name="m9rules">You need to clean the whole board by shooting 4 water balloons.</string>
+    <string name="m10rules">You have to light 8 candles by 1 matchstick</string>
+    <string name="m11rules">The inmates are not permitted to talk in any other language than HINDI.\n\nParticipates are not supposed to tamper with any of the electronic equipment or any other thing in the House or else they have to pay for it.\n\nParticipates does not do any physically attack on each other. If anybody do this then they will get straightly eliminated.\n\nParticipates cannot leave the House premises at any time except when they are eliminated.\n\nParticipates cannot sleep in the house.\n\nParticipates will face mentally and physical challenging tasks.\n\nNo group participation, only individual participations. \n\nAbusing words are not allow to speak in house or else they will straightly get eliminated.\n\n• If any physical injury occur to any participate we are not responsible for it.\n\nBigboss decision will be the last and final decision.</string>
+    <string name="m12rules">Update Soon</string>
+    <string name="m13rules">Update Soon</string>
+    <string name="m14rules">Update Soon</string>
+    <string name="m15rules">Update Soon</string>
+
+    <string name="s1rules">Update Soon</string>
+    <string name="s2rules">Update Soon</string>
+    <string name="s3rules">Update Soon</string>
+    <string name="s4rules">Update Soon</string>
+    <string name="s5rules">Update Soon</string>
+    <string name="s6rules">Update Soon</string>
+    <string name="s7rules">Update Soon</string>
+    <string name="s8rules">Update Soon</string>
+    <string name="s9rules">Update Soon</string>
+
+
+    <string name="title_activity_registerp">Registration Panel</string>
+    <string name="title_activity_registerm">Magnif Registration</string>
+    <string name="title_activity_registers">Scifun</string>
+    <string name="title_activity_registerc">Chakravyuh Registration</string>
+    <string name="title_activity_registerk">Register for Kalakriti</string>
+    <string name="title_activity_registermenu">Register Your Self For</string>
+    <string name="title_activity_notify">"Notifications Center "</string>
+    <string name="title_activity_fire_base_example">FireBase Example</string>
+
+
+    <string name="dates_technovision">Date : 9 &amp; 10 MAR 2017 </string>
+    <string name="dates_magnif">Date : 9 &amp; 10 MAR 2017</string>
+    <string name="dates_sports">Dates : 6 MAR 2017</string>
+    <string name="dates_sports_earlybird">Dates : 28 FEB 2017</string>
+    <string name="dates_sports_onspot">Dates : 1 MAR 2017</string>
+    <string name="dates_kalakriti">Dates : 11 MAR 2017</string>
+
+    <string name="Coor_C1">Hemant \n9586359353\n\nDevang \n8460471215\n\nVishal \n8347475839\n\nSarthak \n9820226492</string>
+    <string name="Coor_c2">Hemant singh \n9574597837\n\nAbhishek \n8980148160\n\nKaustubh \n9726093288</string>
+    <string name="Coor_c3">Shreepad \n9408018287\n\nYash \n7016085584\n\nRahul RS \n9725543964\n\nNishant \n98141098106</string>
+    <string name="Coor_c4">Rahul RS \n9725543964\n\nRushi Bhatt \n7874777179\n\nSmit \n9574781157</string>
+    <string name="Coor_c5">Update Soon</string>
+    <string name="Coor_c6">Update Soon</string>
+    <string name="Coor_c7">Update Soon</string>
+
+    <string name="Coor_t1">Devang Mishra\n8460471215\n\nMilind Malakar\n9714402793\n\nGohil\n7820025458</string>
+    <string name="Coor_t2">Jeet Patel\n9662650576\n\nSarthak Joshi\n9408402906\n\nDixay Patel\n9662316532</string>
+    <string name="Coor_t3">Milind Malakar\n9714402793\n\nMayank Patel\n9426161278\n\nYash Patel\n8155848002\n\nSuraj Kumar\n9785831647\n\nDevang Mistra\n8460471215</string>
+    <string name="Coor_t4">Mayank Patel\n9426161278\n\nYash Patel\n8155848002\n\nMitesh Panchal\n7698125130\n\nSuchin Patel\n9712210014</string>
+    <string name="Coor_t5">Smit V K\n7600482202</string>
+    <string name="Coor_t6">Parita Gojariya\n9061043849\n\nVisal Shrivastav\n9974176805\n\nSwarup Mahato\n9638460795\n\nHelly Shah\n7358972338</string>
+    <string name="Coor_t7">Kinjal Parmar\n8128762688\n\nVisal Shrivastav\n9974176805\n\nTrushif Pandya\n9173437274</string>
+    <string name="Coor_t8">Charmi Patel\n9624036778\n\nMilan Lodha\n7600676152\n\nAjit Mourya\n8141748571</string>
+    <string name="Coor_t9">Charmi Patel\n9624036778\n\nDiksha Verma\n9408423958\n\nRohan Jokhi\n9974111838\n\nAjit Mourya\n8141748571</string>
+    <string name="Coor_t10">Prabhakar Misra\n9140080284\n\nBrijesh Patel\n9925724671\n\nSmit Shroff\n9157036567\n\nYash Parmar\n9099655768</string>
+    <string name="Coor_t11">Ali Akbar Kachwala\n8733885452\n\nIrsad Rathod\n8140394152</string>
+    <string name="Coor_t12">Parth Parmarn\n7096938045\n\nDarpan Patel\n7621980121\n\nSmit Rajput\n\nAbhijeet Prusty\n9173763822</string>
+    <string name="Coor_t13">Rudrasinh Parmar\n9725151771\n\nUmang Thakar\n9033156692</string>
+    <string name="Coor_t14">Raheel Pathan\n9586912480\n\nSuraj Kumar\n9785831647\n\nMilind Malakar\n9714402793\n\nApurva Prajapati\n7405386723</string>
+    <string name="Coor_t15">Milan Lodha\n7600676152</string>
+    <string name="Coor_t16">Sagar Vekariya\n8155807713\n\nAkash Beladiya\n\nMohit Joshi\n\nDivyesh Kakadiya</string>
+    <string name="Coor_t17">Gaurav Thakkar\n8980830899\n\nMegh Gussain\n9978249964\n\nRudra Sinh\n9725151771</string>
+
+    <string name="magnif_Coor">Prerak shah\n8140887110\n\nKajal Trivedi\n7201909082\n\nKrishna Patni\n8690580888\n\nKrunal\n9537227811</string>
+
+    <string name="des_contact">For description contact \n\nPrerak shah\n8140887110\n\nKajal Trivedi\n7201909082\n\nKrishna Patni\n8690580888\n\nKrunal\n9537227811</string>
+
+
+</resources>

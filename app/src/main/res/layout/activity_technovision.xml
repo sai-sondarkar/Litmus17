@@ -1,0 +1,1295 @@
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t1"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="15dp"
+                android:layout_marginTop="2.5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="F"
+                    android:background="@color/FuryofTracks"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"
+                    android:id="@+id/textView2" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/FuryofTracks"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Fury of Tracks" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t1des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t2"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="C"
+                    android:background="@color/Codetowin"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Codetowin"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Code to Win" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t2des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t3"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="F"
+                    android:background="@color/Fieryfighters"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Fieryfighters"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Fiery Fighters" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t3des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t4"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="S"
+                    android:background="@color/Speedingmachines"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Speedingmachines"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Speeding Machines" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t4des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t5"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="F"
+                    android:background="@color/Theartsylens"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Theartsylens"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="The Artsy Lens" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t5des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t6"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="C"
+                    android:background="@color/Construo"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Construo"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Construo" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t6des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t7"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="B"
+                    android:background="@color/Bridgethegap"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Bridgethegap"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Bridge the Gap" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t7des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t8"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="S"
+                    android:background="@color/Shifttobeat"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Shifttobeat"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Shift to Beat" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t8des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t9"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="H"
+                    android:background="@color/Hitittowinit"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Hitittowinit"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Hit It To Win It" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t9des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t10"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="R"
+                    android:background="@color/Reclamation"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"
+                    android:id="@+id/textView5" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Reclamation"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Reclamation" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t10des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t11"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="L"
+                    android:background="@color/Ladderchaimbers"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Ladderchaimbers"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Ladder Claimbers" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t11des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t12"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="M"
+                    android:background="@color/Minimilitia"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Minimilitia"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Mini Militia" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t12des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t13"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="2.5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="B"
+                    android:background="@color/Bombsquad"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Bombsquad"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Bomb Squad" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t13des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t14"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="R"
+                    android:background="@color/Robosoccer"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Robosoccer"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Robo Soccer" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t14des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t15"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="F"
+                    android:background="@color/Fifa16"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Fifa16"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Fifa 16" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t15des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t16"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="R"
+                    android:background="@color/Robopuzzle"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Robopuzzle"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Robo Puzzle" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t16des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:clickable="true"
+            android:onClick="t17"
+            android:weightSum="4"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:elevation="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="R"
+                    android:background="@color/Rainbow6siege"
+                    android:gravity="center"
+                    android:textColor="@color/textColorPrimary"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="40sp"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-Bold"
+                        android:textColor="@color/Rainbow6siege"
+                        android:padding="4dp"
+                        android:textSize="25sp"
+                        android:text="Rainbow 6 Siege" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textSize="17sp"
+                        android:singleLine="true"
+                        android:text="@string/t17des"/>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
